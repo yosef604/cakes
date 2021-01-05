@@ -296,3 +296,65 @@ footer .container{
     color: var(--primary-color);
     margin-right: 15px;
 }
+
+
+@media (max-width: 500px){
+    .navbar {
+        border-bottom: none;
+    }
+
+    .navbar ul {
+        margin-bottom: 20px;
+    }
+
+    .navbar .container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 20px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar .container .logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar .logo h1 {
+        font-size: 55px;
+    }
+
+    .header .header-main {
+        height: 50vh;
+    }
+
+
+    .header .header-main h2 {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sign-up img {
+        height: 150px;
+    }
+
+    .bottom form {
+        display: none;
+    }
+
+
+}
